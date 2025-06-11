@@ -3,7 +3,9 @@
 !data/.gitignore
 # models/*
 !models/.gitignore
-
+mlruns
+*.json
+mlartifacts
 ## Mac OS
 .DS_Store
 
