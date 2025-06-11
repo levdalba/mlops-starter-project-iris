@@ -1,9 +1,11 @@
 # Data files
-data/*
+# data/*
 !data/.gitignore
-models/*
+# models/*
 !models/.gitignore
-
+mlruns
+*.json
+mlartifacts
 ## Mac OS
 .DS_Store
 
