@@ -1,0 +1,1 @@
+Analyze a chess position in FEN format and predict Magnus Carlsen's most probable move, emphasizing endgame strategy, using a fine-tuned Lc0 model trained on his 6,000+ games. (Run 1750152410)
