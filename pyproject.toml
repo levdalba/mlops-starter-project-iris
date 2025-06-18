@@ -12,6 +12,9 @@ dependencies = [
     "joblib>=1.5.1",
     "pandas>=2.2.3",
     "scikit-learn>=1.6.1",
+    "chess",
+    "mlflow>=2.15.2",
+    "openai>=0.30.0",
 ]
 
 [dependency-groups]

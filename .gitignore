@@ -4,9 +4,13 @@ data/*
 models/*
 !models/.gitignore
 _template/*
-
+*.json
 ## Mac OS
 .DS_Store
+mlruns/
+yaml/*
+.dvc
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
