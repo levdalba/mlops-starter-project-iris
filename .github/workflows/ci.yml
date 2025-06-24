@@ -83,6 +83,11 @@ jobs:
             - name: Install dependencies
               run: make install
 
+            - name: Download & preprocess the data
+              run: |
+                  uv run python src/load_data.py
+                  uv run python src/split_dataset.py --test_size 0.2
+
             - name: Download iris-model artifact
               uses: actions/download-artifact@v4
               with:
